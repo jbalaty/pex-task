@@ -5,9 +5,10 @@ const { Map, List } = Immutable;
 // =============================================================================
 // Code
 // 
-// My implementation relies on flatten from Immutable.js
 // Calls to processStructuredError are recursive and should be probably limited
 //  to only certain depth or rewritten into procedural form
+// From the spec it is not clear if keys that should preserve structure
+//  are only top level or can point deep into the objects hierarchy
 // =============================================================================
 
 /**
