@@ -1,0 +1,17 @@
+{
+  "name": "pex-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/index.js"
+  },
+  "author": "Jiri Balaty",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
